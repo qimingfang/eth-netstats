@@ -3,6 +3,10 @@
   "description": "Ethereum Network Intelligence dashboard",
   "version": "0.0.9",
   "private": true,
+  "engines": {
+    "node": "0.12.0",
+    "npm": "2.5.1"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "postinstall": "grunt"
